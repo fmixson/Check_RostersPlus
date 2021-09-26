@@ -1,0 +1,24 @@
+<FirstScreen>:
+    GridLayout:
+        cols: 3
+        rows: 3
+        padding: 22
+        spacing: 10
+        TextInput:
+            id: user_name
+            size_hint_y: 0.3333
+        TextInput:
+            id: password
+            size_hint_y: 0.3333
+        Button:
+            text: "Submit"
+            size_hint_y: 0.3333
+            on_press: root.set_image()
+
+
+
+
+<RootWidget>:
+    FirstScreen:
+        id: first_screen
+        name: 'first_screen'
